@@ -1,0 +1,44 @@
+<template>
+  <v-form ref="form" v-model="valid">
+    
+    <v-text-field
+      v-model="email"
+      :rules="[emailRule, uniqueEmailRule(checkEmailExists)]"
+      label="ایمیل"
+    />
+    
+    <v-text-field
+      v-model="password"
+      :rules="[passwordRequiredRule, minLengthRule(6)]"
+      label="رمز عبور"
+      type="password"
+    />
+    
+  </v-form>
+</template>
+
+<script>
+// قوانین اعتبارسنجی
+import { emailRule, passwordRequiredRule, minLengthRule, uniqueEmailRule } from '@/rules/authRules'
+
+export default {
+  data: () => ({
+    valid: false, // وضعیت فرم
+    email: '',
+    password: '',
+    
+    // توابع قوانین
+    emailRule,
+    passwordRequiredRule,
+    minLengthRule,
+    uniqueEmailRule
+  }),
+  
+  methods: {
+    // بررسی تکراری نبودن ایمیل
+    async checkEmailExists(email) {
+      return false 
+    }
+  }
+}
+</script>

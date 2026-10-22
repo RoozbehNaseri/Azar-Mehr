@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "customers": "Customers",
+    "mission": "Our Mission",
+    "about": "About Us",
+    "cooperation": "Cooperation",
+    "contact": "Contact Us"
+  },
+  "brand": {
+    "mini": "Knowledge-based Company",
+    "title": "Azarmehr Pardazesh"
+  },
+  "hero": {
+    "mini": "Knowledge-based Company",
+    "title": "Azarmehr Pardazesh",
+    "subtitle": "Your companion in digital growth"
+  },
+  "about": {
+    "p1": "Since 2018, we have been supporting businesses through web development, digital solutions, and process improvement.",
+    "p2": "Our focus is on delivering a professional, simple, and trustworthy experience.",
+    "p3": "Let's build a professional, secure, and modern login/signup experience together."
+  },
+  "auth": {
+    "login": {
+      "title": "Sign in to your account",
+      "subtitle": "Enter your email and password to continue.",
+      "button": "Login",
+      "remember": "Remember me",
+      "forgot": "Forgot password?",
+      "success": "Login successful!",
+      "error": "Invalid email or password",
+      "welcome": "Welcome"
+    },
+    "signup": {
+      "title": "Create a new account",
+      "subtitle": "Enter your details to save your account in browser local storage.",
+      "button": "Sign Up",
+      "fullName": "Full name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "minLength": "Password must be at least 6 characters",
+      "passwordMismatch": "Password and confirmation do not match",
+      "emailExists": "This email is already registered",
+      "success": " Account created successfully! You can now log in.",
+      "error": "Signup failed. Please try again.",
+      "switchLink": "Already registered? Login"
+    },
+    "tabs": {
+      "login": "Login",
+      "signup": "Sign Up"
+    }
+  },
+  "demo": {
+    "title": "Demo credentials",
+    "emailLabel": "Email:",
+    "passwordLabel": "Password:",
+    "generateNew": "Generate new",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "text": "You can log in with these credentials or create a real local account using the signup form."
+  },
+  "footer": {
+    "text": "Demo login and signup with browser local storage"
+  },
+  "dashboard": {
+    "title": "User Dashboard",
+    "welcome": "Welcome to your dashboard!",
+    "name": "Username:",
+    "email": "Email:",
+    "status": "Status:",
+    "online": "Online",
+    "logout": "Logout",
+    "userGreeting": "Welcome"
+  },
+  "validation": {
+    "required": "This field is required",
+    "emailRequired": "Email is required",
+    "invalidEmail": "Please enter a valid email address (example: name@domain.com)",
+    "passwordRequired": "Password is required",
+    "nameRequired": "Full name is required",
+    "nameMinLength": "Full name must be at least 3 characters",
+    "confirmPasswordRequired": "Please confirm your password",
+    "emailExists": "This email is already registered",
+    "fieldRequired": "Cannot be empty"
+  }
+}
